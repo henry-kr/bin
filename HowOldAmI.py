@@ -21,5 +21,5 @@ with urllib.request.urlopen("http://www.datetime.io/age/1989/1/1") as f:
 #print(p)
 
 parser = ParseMyAge()
-#lines = parser.feed(p)
+lines = parser.feed(p)
 print(lines)
