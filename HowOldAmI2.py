@@ -7,7 +7,7 @@ import datetime
 #page = requests.get("http://www.datetime.io/age/1989/1/1")
 #tree = html.fromstring(page.content)
 
-print (len(sys.argv))
+print ('')
 
 #birthdate = datetime.datetime.strptime(sys.argv[1], %y)  #(sys.argv[1]) #+ '/' + datetime.date.month(sys.argv[1]) + '/' + datetime.date.day(sys.argv[1])
 #print (birthdate)
